@@ -332,6 +332,64 @@ color: #14b0fe;
   }
 }
 
+.connToggle {
+  font-family: Roboto-Medium, Roboto;
+  font-weight: 500;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.connLabel {
+  font-size: 7px;
+  fill: #8a8a8a;
+  text-anchor: middle;
+}
+.connOpt,
+.connIcon {
+  cursor: pointer;
+}
+.connOpt rect {
+  fill: transparent;
+}
+.connOpt text {
+  font-size: 10px;
+  fill: #8a8a8a;
+  transition: fill 0.2s ease-in-out;
+}
+.connMultiOpt text {
+  text-anchor: end;
+}
+.connSingleOpt text {
+  text-anchor: start;
+}
+.connOpt:hover text {
+  fill: #5f5f5f;
+}
+.connToggle.is-multi .connMultiOpt text,
+.connToggle.is-single .connSingleOpt text {
+  fill: #14b0fe;
+}
+.connIcon circle {
+  fill: transparent;
+  stroke: #d2d1d2;
+  stroke-width: 0.6px;
+}
+.connIcon path {
+  fill: none;
+  stroke: #5f5f5f;
+  stroke-width: 0.6px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.connIcon .connDots {
+  stroke-linecap: butt;
+  stroke-dasharray: 1 0.8;
+}
+.is-multi .connIconSingle,
+.is-single .connIconMulti {
+  display: none;
+}
+
 .darkmode {
   margin-bottom: -15px;
   fill: #75757a99;

@@ -43,3 +43,12 @@ body {
 .ConnectError {
   fill: #ffffff;
 }
+.connOpt:hover text {
+  fill: #d8d8d8;
+}
+.connIcon circle {
+  stroke: #4a4a4a;
+}
+.connIcon path {
+  stroke: #d8d8d8;
+}

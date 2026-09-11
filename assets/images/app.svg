@@ -375,6 +375,28 @@
 					</use>
 					<use id="nightmode"  class="darkmode" onclick="toggleSkin()" xlink:href="#dark" x="10" y="25" width="30" height="30"></use>
 					<use id="daymode"  class="darkmode" onclick="toggleSkin()" xlink:href="#light" x="10" y="25" width="30" height="30"></use>
+					<g class="connToggle is-multi" transform="translate(148 212)">
+						<text class="connLabel" x="0" y="0">Connections</text>
+						<g class="connOpt connMultiOpt" data-conn="multi">
+							<title id="title1">Test with multiple connections, like most real-world downloads.</title>
+							<rect x="-46" y="10" width="34" height="16" />
+							<text x="-14" y="22">Multi</text>
+						</g>
+						<g class="connIcon" data-conn="toggle" transform="translate(0 18.5)">
+							<title id="title1">Switch between Multi and Single connection tests.</title>
+							<circle r="9" />
+							<g class="connIconMulti">
+								<path class="connDots" d="M-5,-3.5H2.6M-5,0H2.6M-5,3.5H2.6" />
+								<path d="M2.1,-4.6L3.2,-3.5L2.1,-2.4M2.1,-1.1L3.2,0L2.1,1.1M2.1,2.4L3.2,3.5L2.1,4.6" />
+							</g>
+							<path class="connIconSingle" d="M-5,0H4M2,-2L4,0L2,2" />
+						</g>
+						<g class="connOpt connSingleOpt" data-conn="single">
+							<title id="title1">Test with a single connection, like one file transfer.</title>
+							<rect x="12" y="10" width="36" height="16" />
+							<text x="14" y="22">Single</text>
+						</g>
+					</g>
 					<use id="startButtonDesk" class="startButton" xlink:href="#playButton" x="125" y="300.6" width="50.2" height="50.2">
 						<title id="title1">Click here to Run a Speed Test! Or Press "Enter"</title>
 					</use>
@@ -438,6 +460,28 @@
 					<use id="daymode-Mob"  class="darkmode" onclick="toggleSkin()" xlink:href="#light" x="10" y="25" width="30" height="30"></use>
 					<use id="logo-Desk" xlink:href="#logo" x="38" y="110" width="218.8" height="50.22"></use>
 					<use id="deskStartMob" class="deskStart" xlink:href="#mainGaugebg" x="11.18" y="12" width="273.94" height="245.39"></use>
+					<g class="connToggle is-multi" transform="translate(148 184) scale(1.25)">
+						<text class="connLabel" x="0" y="0">Connections</text>
+						<g class="connOpt connMultiOpt" data-conn="multi">
+							<title id="title1">Test with multiple connections, like most real-world downloads.</title>
+							<rect x="-46" y="10" width="34" height="16" />
+							<text x="-14" y="22">Multi</text>
+						</g>
+						<g class="connIcon" data-conn="toggle" transform="translate(0 18.5)">
+							<title id="title1">Switch between Multi and Single connection tests.</title>
+							<circle r="9" />
+							<g class="connIconMulti">
+								<path class="connDots" d="M-5,-3.5H2.6M-5,0H2.6M-5,3.5H2.6" />
+								<path d="M2.1,-4.6L3.2,-3.5L2.1,-2.4M2.1,-1.1L3.2,0L2.1,1.1M2.1,2.4L3.2,3.5L2.1,4.6" />
+							</g>
+							<path class="connIconSingle" d="M-5,0H4M2,-2L4,0L2,2" />
+						</g>
+						<g class="connOpt connSingleOpt" data-conn="single">
+							<title id="title1">Test with a single connection, like one file transfer.</title>
+							<rect x="12" y="10" width="36" height="16" />
+							<text x="14" y="22">Single</text>
+						</g>
+					</g>
 					<use id="startButtonMob" class="startButton" xlink:href="#playButton" x="125" y="280" width="50.2" height="50.2">
 						<title id="title1">Click here to run a speed!</title>
 					</use>
